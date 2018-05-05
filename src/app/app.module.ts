@@ -12,6 +12,8 @@ import { BusFilterPage } from '../pages/bus-filter/bus-filter';
 import { BusListPage } from '../pages/bus-list/bus-list';
 import { LoginPage } from '../pages/login/login';
 import { SignupPage } from '../pages/signup/signup';
+import { FilterAmentitiesPage } from '../pages/filter-amentities/filter-amentities';
+
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -27,7 +29,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     BusFilterPage,
     BusListPage,
     LoginPage,
-    SignupPage
+    SignupPage,
+    FilterAmentitiesPage
   ],
   imports: [
     BrowserModule,
@@ -44,7 +47,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     BusFilterPage,
     BusListPage,
     LoginPage,
-    SignupPage
+    SignupPage,
+    FilterAmentitiesPage
   ],
   providers: [
     StatusBar,

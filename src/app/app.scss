@@ -41,6 +41,11 @@ ion-navbar.toolbar 		{ padding: 12px 4px; min-height: 56px;
 	.bar-buttons  		{ color: #fff; }
 	ion-title 			{ padding: 0px; }
 	.toolbar-title 		{ padding: 0px 48px; font-size: 18px; line-height: 32px; color: #fff; text-align: center; font-weight: 700; text-transform: capitalize;}
+	.bar-button,
+	.right-btn  		{ margin-top: 0px; margin-bottom: 0px; padding: 0px; min-width: 36px;  position: absolute; height: 32px; top: calc(50% - 16px); text-align: center;  }
+	.bar-button 		{ left: 5px; }
+	.right-btn 			{ right: 5px; }
+	.right-btn 			{ background: transparent; color: #fff; font-size: 20px; }
 }
 /******* Header Section CSS Start *******/
 
@@ -49,8 +54,7 @@ ion-list.form-section{
 		.item-inner 			{ border: none; }
 		ion-input input 		{ margin: 0px 0px 15px; padding: 10px; color: $theme-color; border-bottom: 2px solid #b4b4b4; text-align: center; }
 		&.input-has-focus ion-input input 	{ border-color: $theme-color; }
-	}
-	
+	}	
 }
 
 ion-menu .menu-inner {
@@ -88,3 +92,8 @@ ion-menu .menu-inner {
 	p 					{ margin: 0px; font-size: 18px; line-height: 24px; font-weight: 600; color: #fff; }
 } 
 ion-card.card  			{ margin: 0px; width: 100%; border-radius: 8px; box-shadow: 0px 2px 6px rgba(0,0,0,0.25); -webkit-box-shadow: 0px 2px 6px rgba(0,0,0,0.25); }
+
+.searchbar  			{ margin: 20px 0px 40px; padding: 10px 5px; min-height: initial; background: transparent; border: 1px solid #b4b4b4; box-shadow: 0px 2px 6px rgba(0,0,0,0.25); -webkit-box-shadow: 0px 2px 6px rgba(0,0,0,0.25); border-radius: 8px;
+	&.searchbar-left-aligned .searchbar-input 			{ padding-left: 40px; font-size: 16px; line-height: 18px; }
+	.searchbar-search-icon 		{ width: 20px; height: 20px; top: 5px; background-size: 20px; }
+}

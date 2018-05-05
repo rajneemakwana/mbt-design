@@ -12,6 +12,7 @@ import { BusFilterPage } from '../pages/bus-filter/bus-filter';
 import { BusListPage } from '../pages/bus-list/bus-list';
 import { LoginPage } from '../pages/login/login';
 import { SignupPage } from '../pages/signup/signup';
+import { FilterAmentitiesPage } from '../pages/filter-amentities/filter-amentities';
 
 
 @Component({
@@ -37,7 +38,8 @@ export class MyApp {
       { title: 'Bus Filter', component: BusFilterPage },
       { title: 'Bus List', component: BusListPage },
       { title: 'Login', component: LoginPage },
-      { title: 'Signup', component: SignupPage }
+      { title: 'Signup', component: SignupPage },
+      { title: 'Filter Amentities', component: FilterAmentitiesPage }
 
     ];
 
